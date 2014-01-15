@@ -5,11 +5,11 @@
 	ini_set("memory_limit","999999M");
 	
 	//source directory for compare
-	$sourceDir = "C:\\Zend\\Apache2\\htdocs\\gdcsubsqaV1";
+	$sourceDir = "C:\\Zend\\Apache2\\htdocs\\sourceDir";
 	//destination directory to compare
-	$destinationDir = "C:\\Zend\\Apache2\\htdocs\\gdcsubstrunk";
+	$destinationDir = "C:\\Zend\\Apache2\\htdocs\\destDir";
 	//RootDir name that will be displayed in the final output
-	$baseDir = "gdcsubstrunk";
+	$baseDir = "destDir";
 	
 	//list of files/Directory that don't require compare 
 	$invalidFiles = array('.','..','.svn','.project','log','compile','scribd.log','log.txt');
