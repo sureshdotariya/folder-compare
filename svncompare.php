@@ -8,7 +8,7 @@
 	$sourceDir = "C:\\Zend\\Apache2\\htdocs\\gdcsubsqaV1";
 	//destination directory to compare
 	$destinationDir = "C:\\Zend\\Apache2\\htdocs\\gdcsubstrunk";
-	//baseDir that needs to shown in the final output
+	//RootDir name that will be displayed in the final output
 	$baseDir = "gdcsubstrunk";
 	
 	//list of files/Directory that don't require compare 
